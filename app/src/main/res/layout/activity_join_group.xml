@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="dabatten.convoy.JoinGroupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/join_help_text"
+        android:text="@string/join_group_help"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_key_field"
+        android:hint="@string/group_key"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/join_help_text"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/primary_dark"
+        android:textColorLink="@color/primary_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_group"
+        android:id="@+id/join_button"
+        android:background="@color/accent"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/group_key_field"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+</RelativeLayout>

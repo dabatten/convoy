@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Convoy</string>
+
+    <!-- Login Activity -->
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+
+    <!-- Main Activity / Home Screen -->
+    <string name="title_activity_main">Convoy</string>
+    <string name="new_group">Start Group</string>
+    <string name="join_group">Join Group</string>
+    <string name="my_groups">My Groups</string>
+
+    <!-- New Group Activity -->
+    <string name="group_name">Group Name</string>
+    <string name="group_key">Group Key</string>
+    <string name="group_desc">Description</string>
+    <string name="group_key_desc">Give your friends this unique key in order for them to join your group.</string>
+    <string name="title_activity_new_group">New Group</string>
+    <string name="new_group_button_text">Save Group</string>
+    <string name="title_activity_group">GroupActivity</string>
+
+    <!-- Join Group Activity -->
+    <string name="join_group_help">Please enter the unique key for the group you wish to join.</string>
+
+    <!-- Group Activity -->
+    <string name="group_members">Members</string>
+
+</resources>
